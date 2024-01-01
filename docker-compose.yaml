@@ -1,0 +1,9 @@
+version: '3.9'
+services:
+  web:
+    container_name: task1
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "9000:80"
